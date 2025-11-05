@@ -1,5 +1,7 @@
 package com.alamgir.payment_service.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +27,12 @@ public class PaymentService {
 
         }
         return "Payment Error";
+
+    }
+
+    public List<Payment> getAllPaymentDetails() {
+        List<Payment> payments = paymentRepository.findAll();
+        return payments;
 
     }
 
