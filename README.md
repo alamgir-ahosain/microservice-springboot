@@ -1,5 +1,4 @@
-Exploring Microservices in Spring Boot
-
+<h1>Exploring Microservices in Spring Boot</h1>
 Here’s what I covered and documented:
 
 1. Spring Cloud Overview
@@ -24,4 +23,4 @@ Check here : https://alamgir-ahosain.github.io/alamgir-book/spring-boot/microser
 Check here : https://alamgir-ahosain.github.io/alamgir-book/spring-boot/microservices/7-microservice-communication/
 
 
-GitHub Repository: https://github.com/alamgir-ahosain/microservice-springboot
+**GitHub Repository**: https://github.com/alamgir-ahosain/microservice-springboot
