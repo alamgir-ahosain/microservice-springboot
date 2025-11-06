@@ -27,10 +27,9 @@ public class PaymentController {
 
     }
 
-    @GetMapping("check")
+    @GetMapping("/check")
     public List<Payment> getAllPaymentDetails() {
         return paymentService.getAllPaymentDetails();
-
     }
 
 }
